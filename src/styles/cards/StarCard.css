@@ -1,0 +1,24 @@
+.StarCard {
+    width: 440px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: var(--light-grayish-magenta); 
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.StarCard h5 {
+    font-size: 13px;
+}
+
+.StarCard .top {
+    margin-right: 100px;
+}
+.stars {
+    margin-right: 25px;
+}
+
+.stars img {
+    margin: 0px 5px;
+}

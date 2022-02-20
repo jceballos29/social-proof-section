@@ -1,0 +1,43 @@
+.TestimonialCard {
+    width: 350px;
+    height: 230px;
+    padding: 35px 30px;
+    background-color: var(--very-dark-magenta);
+    border-radius: 10px;
+}
+
+.testimonial__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.testimonial__header img {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    margin-right: 20px;
+}
+
+.customer__name {
+    font-weight: 700;
+    color: var(--light-grayish-magenta);
+}
+
+.testimonial__header__information {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.customer__status {
+    font-weight: 400;
+    color: var(--soft-pink);
+}
+
+.testimonial__body p {
+    color: var(--light-grayish-magenta);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.6;
+}

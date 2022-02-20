@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
 
 :root {
-  --very-dark-magenta: hsl(300, 43%, 22%);
-  --soft-pink: hsl(333, 80%, 67%);
-  --dark-grayish-magenta: hsl(303, 10%, 53%);
-  --Light-grayish-magenta: hsl(300, 24%, 96%);
-  --white: hsl(0, 0%, 100%);
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
 }
 
 *,
@@ -17,6 +17,19 @@
 }
 
 body {
-    font-family: 'Spartan', sans-serif;
-    font-size: 15px;   
+    font-family: "Spartan", sans-serif;
+    font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--very-dark-magenta);
+}
+
+p {
+    color: var(--dark-grayish-magenta);
 }
