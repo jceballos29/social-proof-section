@@ -50,6 +50,7 @@
 }
 
 .social__content__stars {
+    width: 100%;
     grid-area: social__content__stars;
     display: flex;
     flex-direction: column;
@@ -63,5 +64,45 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 0px 30px;
+    gap: 30px;
+}
+
+@media (max-width: 1024px) {
+    .SocialSection {
+        width: 375px;
+        height: 1530px;
+    }
+
+    .social__content__information {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .social__content__information h1 {
+        font-size: 2.5em;
+        margin-bottom: 15px;
+    }
+
+    .social__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 55px 15px;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .social__content__testimonial {
+        grid-area: social__content__testimonial;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+    }
 }

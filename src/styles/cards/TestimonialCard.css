@@ -41,3 +41,9 @@
     font-weight: 400;
     line-height: 1.6;
 }
+
+@media (max-width: 1024px) {
+    .TestimonialCard {
+        width: 100%
+    }
+}

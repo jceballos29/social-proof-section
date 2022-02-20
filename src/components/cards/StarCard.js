@@ -3,21 +3,11 @@ import "../../styles/cards/StarCard.css";
 
 import star from "../../images/icon-star.svg";
 
-const StarCard = ({ title, stars, className }) => {
-    const [marginRight, setMarginRight] = useState(0);
-
-    useEffect(() => {
-        if (className === "top") {
-            setMarginRight(100);
-        } else if (className === "middle") {
-            setMarginRight(50);
-        } else {
-            setMarginRight(0);
-        }
-    }, [className]);
+const StarCard = ({ title, stars, position }) => {
+    const desktop = window.innerWidth > 1024; 
 
     return (
-        <div className="StarCard" style={{ marginRight: marginRight }}>
+        <div className="StarCard" style={ desktop ? { marginRight: position } : null}>
             <div className="stars">
                 {Array(stars)
                     .fill(star)

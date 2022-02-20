@@ -13,7 +13,7 @@ import customerTestimonial from "../utils/customerTestimonial";
 import TestimonialCard from "./cards/TestimonialCard";
 
 const SocialSection = () => {
-    const mobile = window.innerWidth <= 860;
+    const mobile = window.innerWidth <= 1024;
 
     return (
         <div className="SocialSection">
@@ -42,7 +42,7 @@ const SocialSection = () => {
                             key={id}
                             stars={stars}
                             title={title}
-                            className={position}
+                            position={position}
                         />
                     ))}
                 </div>

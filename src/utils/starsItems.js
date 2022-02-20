@@ -2,19 +2,19 @@ const starsItems = [
     {
         id: 0,
         title: "Rated 5 Stars in Reviews",
-        position: "top",
+        position: 100,
         stars: 5,
     },
     {
         id: 1,
         title: "Rated 5 Stars in Report Guru",
-        position: "middle",
+        position: 50,
         stars: 5,
     },
     {
         id: 2,
         title: "Rated 5 Stars in BestTech",
-        position: "bottom",
+        position: 0,
         stars: 5,
     },
 ];

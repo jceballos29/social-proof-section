@@ -2,8 +2,11 @@ import React from "react";
 import "../../styles/cards/TestimonialCard.css";
 
 const TestimonialCard = ({ position, testimonial, avatar, name, status }) => {
+
+    const desktop = window.innerWidth > 1024;
+
     return (
-        <div className="TestimonialCard" style={{ marginTop: position }}>
+        <div className="TestimonialCard" style={desktop ? { marginTop: position } : null}>
             <div className="testimonial__header">
                 <img src={avatar} alt="Customer Avatar" />
                 <div className="testimonial__header__information">
